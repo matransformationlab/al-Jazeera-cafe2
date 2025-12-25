@@ -1,0 +1,2384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO & Social -->
+    <title>Al Jazeera Cafe & Hotel - Bungoma's #1 Restaurant & Hotel</title>
+    <meta name="description" content="100% Halal certified restaurant & hotel in Bungoma. Legendary pilau, clean rooms, football lounge. Open 24/7 since 2010. Call +254 700 488888">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Al Jazeera Cafe & Hotel - Bungoma's #1 Restaurant & Hotel">
+    <meta property="og:description" content="100% Halal certified, legendary pilau, clean rooms, WiFi, football lounge. Open 24/7 since 2010.">
+    <meta property="og:type" content="restaurant">
+    <meta property="og:url" content="https://al-jazeera-cafe.github.io/al-jazeera-cafe">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:site_name" content="Al Jazeera Cafe & Hotel">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Al Jazeera Cafe & Hotel - Bungoma's #1 Restaurant & Hotel">
+    <meta name="twitter:description" content="100% Halal certified, legendary pilau, clean rooms, WiFi, football lounge. Book: +254 700 488888">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Al Jazeera Cafe & Hotel",
+        "description": "Bungoma's legendary halal restaurant and hotel since 2010. 100% Halal certified with guest rooms, football lounge, and 24/7 service.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Kanduyi-Bungoma Road, Near County Assembly",
+            "addressLocality": "Bungoma",
+            "addressRegion": "Western",
+            "postalCode": "50200",
+            "addressCountry": "KE"
+        },
+        "telephone": "+254700488888",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "priceRange": "$$",
+        "servesCuisine": ["Kenyan", "Somali", "Halal"],
+        "acceptsReservations": true,
+        "paymentAccepted": ["Cash", "M-Pesa"],
+        "hasMenu": "https://al-jazeera-cafe.github.io/al-jazeera-cafe#menu",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 0.5636,
+            "longitude": 34.5564
+        },
+        "image": "https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=1200&q=80",
+        "url": "https://al-jazeera-cafe.github.io/al-jazeera-cafe",
+        "sameAs": [
+            "https://instagram.com/aljazeeracafe.bgm",
+            "https://facebook.com/aljazeeracafe.bgm",
+            "https://tiktok.com/@aljazeeracafe.bgm"
+        ]
+    }
+    </script>
+
+    <!-- Styles -->
+    <style>
+        /* CSS Variables - Brand Colors */
+        :root {
+            --primary-green: #7FD957;
+            --primary-green-dark: #4A7C2C;
+            --metallic-silver: #C0C0C0;
+            --deep-black: #0A0A0A;
+            --gold-accent: #D4AF37;
+            --glass-bg: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(127, 217, 87, 0.2);
+            --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --radius: 12px;
+            --radius-lg: 24px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background: var(--deep-black);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        /* Skip Link for Accessibility */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary-green);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 0 0 4px 0;
+            z-index: 10000;
+            font-weight: 600;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header Banner */
+        .header-banner {
+            background: linear-gradient(90deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            color: white;
+            padding: 8px 0;
+            overflow: hidden;
+            position: relative;
+            z-index: 1001;
+        }
+
+        .banner-text {
+            display: flex;
+            white-space: nowrap;
+            animation: scroll-left 30s linear infinite;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .banner-text span {
+            margin: 0 50px;
+        }
+
+        @keyframes scroll-left {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--glass-border);
+            transition: var(--transition);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: var(--primary-green);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .nav-link {
+            font-weight: 600;
+            color: #ffffff;
+            position: relative;
+            padding: 8px 0;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-green);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary-green);
+            cursor: pointer;
+            padding: 5px;
+            border-radius: var(--radius);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            margin-top: 65px;
+            background: linear-gradient(135deg, var(--deep-black) 0%, #1a1a1a 100%);
+        }
+
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=1950&q=80') center/cover;
+            filter: brightness(0.4);
+            z-index: -1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(10, 10, 10, 0.8) 0%, rgba(10, 10, 10, 0.4) 100%);
+            z-index: -1;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            color: white;
+            padding: 40px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, var(--primary-green) 0%, var(--gold-accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--metallic-silver);
+            font-weight: 400;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #e2e8f0;
+            line-height: 1.7;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            border-radius: var(--radius);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            border: none;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-secondary {
+            background: var(--glass-bg);
+            color: var(--primary-green);
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(5px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(127, 217, 87, 0.2);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Sections */
+        .section {
+            padding: 80px 0;
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            margin-bottom: 20px;
+            color: var(--primary-green);
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--metallic-silver);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* About */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--metallic-silver);
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+        }
+
+        .about-image {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Menu Carousel Styles */
+        .menu-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: 12px 24px;
+            border-radius: 50px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--metallic-silver);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            backdrop-filter: blur(5px);
+        }
+
+        .tab-btn.active,
+        .tab-btn:hover {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            color: white;
+            border-color: transparent;
+        }
+
+        .menu-carousel-container {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: var(--radius-lg);
+        }
+
+        .carousel-wrapper {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            padding: 20px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(10px);
+        }
+
+        .carousel-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .carousel-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .carousel-details {
+            color: var(--metallic-silver);
+        }
+
+        .carousel-title {
+            font-size: 1.8rem;
+            color: var(--primary-green);
+            margin-bottom: 15px;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .carousel-price {
+            font-size: 1.5rem;
+            color: var(--gold-accent);
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .carousel-description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .carousel-controls {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            pointer-events: none;
+        }
+
+        .carousel-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--primary-green);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+            pointer-events: all;
+            backdrop-filter: blur(10px);
+            font-size: 1.2rem;
+        }
+
+        .carousel-btn:hover {
+            background: var(--primary-green);
+            color: white;
+            border-color: transparent;
+        }
+
+        .carousel-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .carousel-indicators {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--glass-border);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .indicator.active {
+            background: var(--primary-green);
+            transform: scale(1.2);
+        }
+
+        /* Hotel */
+        .hotel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .room-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: var(--transition);
+            backdrop-filter: blur(10px);
+            contain: layout style paint;
+        }
+
+        .room-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow);
+        }
+
+        .room-image {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .room-content {
+            padding: 25px;
+        }
+
+        .room-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .room-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary-green);
+        }
+
+        .room-price {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--gold-accent);
+        }
+
+        .room-description {
+            color: var(--metallic-silver);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .room-features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .room-feature {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: var(--metallic-silver);
+        }
+
+        .room-feature i {
+            color: var(--primary-green);
+            font-size: 0.8rem;
+        }
+
+        .room-book-btn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .room-book-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        /* Football */
+        .football-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .football-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--metallic-silver);
+        }
+
+        .football-text p {
+            margin-bottom: 20px;
+        }
+
+        .football-image {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .football-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .football-schedule {
+            margin-top: 30px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .match-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .match-item:last-child {
+            border-bottom: none;
+        }
+
+        .match-teams {
+            font-weight: 600;
+            color: var(--metallic-silver);
+        }
+
+        .match-time {
+            font-weight: 500;
+            color: var(--primary-green);
+        }
+
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            transition: var(--transition);
+            contain: layout style paint;
+            position: relative;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.7;
+            color: var(--metallic-silver);
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .author-name {
+            font-weight: 600;
+            color: var(--primary-green);
+        }
+
+        .author-role {
+            font-size: 0.9rem;
+            color: var(--metallic-silver);
+        }
+
+        .testimonial-quote {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 3rem;
+            color: var(--primary-green);
+            opacity: 0.3;
+        }
+
+        /* FAQ */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            border-radius: var(--radius);
+            overflow: hidden;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(10px);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 20px;
+            background: transparent;
+            border: none;
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-green);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            background: rgba(127, 217, 87, 0.1);
+        }
+
+        .faq-icon {
+            transition: var(--transition);
+            color: var(--gold-accent);
+        }
+
+        .faq-question.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer.active {
+            max-height: 300px;
+        }
+
+        .faq-answer-content {
+            padding: 0 20px 20px;
+            color: var(--metallic-silver);
+            line-height: 1.7;
+        }
+
+        /* Contact */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 20px;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .contact-details h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            color: var(--primary-green);
+        }
+
+        .contact-details p {
+            color: var(--metallic-silver);
+        }
+
+        .contact-form {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            padding: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--primary-green);
+        }
+
+        .form-input,
+        .form-textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius);
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-input:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 3px rgba(127, 217, 87, 0.2);
+        }
+
+        .form-textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .form-submit:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .form-submit:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* Map */
+        .map {
+            height: 400px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .map-container {
+            height: 100%;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(135deg, var(--deep-black) 0%, #1a1a1a 100%);
+            color: white;
+            padding: 60px 0 20px;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: var(--primary-green);
+        }
+
+        .footer-column p,
+        .footer-column ul {
+            color: var(--metallic-silver);
+            line-height: 1.8;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul li a {
+            color: var(--metallic-silver);
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .footer-column ul li a:hover {
+            color: var(--primary-green);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-green);
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .social-link:hover {
+            background: var(--primary-green);
+            color: white;
+            border-color: transparent;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid var(--glass-border);
+            color: var(--metallic-silver);
+            font-size: 0.9rem;
+        }
+
+        .payment-info {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-top: 20px;
+            backdrop-filter: blur(5px);
+        }
+
+        .payment-info h4 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: var(--primary-green);
+        }
+
+        .payment-details {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .payment-details i {
+            color: var(--primary-green);
+        }
+
+        /* Floating Buttons */
+        .floating-buttons {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 999;
+        }
+
+        .floating-btn {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.3rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .floating-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-btn {
+            background: #25d366;
+            animation: pulse 2s infinite;
+        }
+
+        .scroll-top-btn {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+            display: none;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .about-content,
+            .football-content,
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .carousel-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(10, 10, 10, 0.95);
+                flex-direction: column;
+                padding: 20px;
+                backdrop-filter: blur(12px);
+                border-top: 1px solid var(--glass-border);
+            }
+            
+            .nav-menu.active {
+                display: flex;
+            }
+            
+            .mobile-toggle {
+                display: block;
+            }
+            
+            .hero-content {
+                padding: 30px 20px;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .menu-tabs {
+                gap: 10px;
+            }
+            
+            .tab-btn {
+                padding: 10px 16px;
+                font-size: 0.9rem;
+            }
+            
+            .floating-buttons {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            /* Simplify animations on mobile for performance */
+            .hero-title {
+                background: none;
+                -webkit-text-fill-color: inherit;
+                color: var(--primary-green);
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+        }
+
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        /* Scroll Bar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--deep-black);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-green);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-green-dark);
+        }
+
+        /* Print Styles */
+        @media print {
+            .header, .floating-buttons, .footer, .football-schedule, .carousel-controls, .carousel-indicators {
+                display: none;
+            }
+            
+            .carousel-content {
+                display: block;
+                page-break-inside: avoid;
+            }
+            
+            .carousel-item {
+                display: block !important;
+                page-break-inside: avoid;
+                margin-bottom: 20px;
+            }
+            
+            body {
+                background: white;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <span>AL JAZEERA CAFE & HOTEL</span>
+                </div>
+                <nav>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#menu" class="nav-link">Menu</a></li>
+                        <li><a href="#hotel" class="nav-link">Hotel</a></li>
+                        <li><a href="#football" class="nav-link">Football</a></li>
+                        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navMenu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content animate-in">
+                <h1 class="hero-title">Bungoma's Legendary</h1>
+                <p class="hero-subtitle">100% Halal Restaurant · Hotel · Football Lounge</p>
+                <p class="hero-description">
+                    Since 2010, we've been Bungoma's premier destination for authentic Kenyan-Somali cuisine, 
+                    comfortable accommodation, and unforgettable match-day experiences. A taste of family warmth.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">
+                        <i class="fas fa-utensils"></i> View Menu
+                    </a>
+                    <a href="https://wa.me/254700488888?text=I want to order/book at Al Jazeera Cafe Bungoma" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Our Story</h2>
+                <p class="section-subtitle">From Somali-Kenyan family kitchen to Bungoma's table</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text animate-in delay-1">
+                    <p>Founded by Omar Sharif in the early 2010s, Al Jazeera Cafe began as a Somali-Kenyan family kitchen with one mission: feed people honest food and treat every guest like family.</p>
+                    <p>Our first menu was simple but legendary: pilau, meat stew, and ugali na nyama. Over the years, we've become Bungoma's meeting point — for students grabbing lunch, families celebrating milestones, travelers needing a clean bed, and friends gathering to watch football on Friday nights.</p>
+                    <p>What makes us different? We're not just a restaurant — we're a community hub where Kenyans and Somalis come together. Al Jazeera is a legend and part of Bungoma's history.</p>
+                    <div class="testimonial-card" style="margin-top: 30px; position: relative;">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p class="testimonial-text">"We cook what we would serve our own children. We welcome guests the way we'd welcome our own family. That's the Al Jazeera promise — and it always will be."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name">Omar Sharif</h4>
+                                <p class="author-role">Founder & Head Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image animate-in delay-2">
+                    <img src="https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=800&q=80" alt="Kenyan and Somali chefs at Al Jazeera Cafe" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Everything you need under one roof</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card animate-in delay-1">
+                    <div class="stat-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="stat-number">🍽️</div>
+                    <h3>Restaurant</h3>
+                    <p>100% Halal Kenyan-Somali cuisine. Breakfast from 6am. Friday biryani special.</p>
+                </div>
+                
+                <div class="stat-card animate-in delay-2">
+                    <div class="stat-icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <div class="stat-number">🛏️</div>
+                    <h3>Guest Rooms</h3>
+                    <p>Clean, comfortable rooms with WiFi. Safe parking. Perfect for travelers.</p>
+                </div>
+                
+                <div class="stat-card animate-in delay-3">
+                    <div class="stat-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="stat-number">📺</div>
+                    <h3>Football Lounge</h3>
+                    <p>Large HD screens, match-day energy, and chill vibes for fans.</p>
+                </div>
+                
+                <div class="stat-card animate-in delay-1">
+                    <div class="stat-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="stat-number">📶</div>
+                    <h3>Free WiFi</h3>
+                    <p>Fast, reliable connection for work, study, or streaming.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Carousel Section -->
+    <section class="section" id="menu">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Our Menu - 100% Halal</h2>
+                <p class="section-subtitle">Authentic Kenyan-Somali cuisine crafted with love</p>
+            </div>
+            
+            <div class="menu-tabs animate-in delay-1">
+                <button class="tab-btn active" data-category="breakfast" aria-pressed="true">Breakfast & Snacks</button>
+                <button class="tab-btn" data-category="kenyan">Main Meals</button>
+                <button class="tab-btn" data-category="somali">Somali Specials</button>
+                <button class="tab-btn" data-category="fastfood">Fast Food</button>
+                <button class="tab-btn" data-category="desserts">Desserts</button>
+                <button class="tab-btn" data-category="beverages">Beverages</button>
+            </div>
+            
+            <div class="menu-carousel-container animate-in delay-2">
+                <div class="carousel-wrapper" id="carouselWrapper">
+                    <!-- Carousel items will be populated by JavaScript -->
+                </div>
+                
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn" aria-label="Previous item">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn" id="nextBtn" aria-label="Next item">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="carousel-indicators" id="carouselIndicators"></div>
+        </div>
+    </section>
+
+    <!-- Hotel Section -->
+    <section class="section" id="hotel">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Guest Accommodation</h2>
+                <p class="section-subtitle">Clean rooms · WiFi · Safe Parking · 24/7 Service</p>
+            </div>
+            
+            <div class="hotel-grid" id="hotelGrid">
+                <!-- Hotel rooms loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Football Section -->
+    <section class="section" id="football">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Football Lounge</h2>
+                <p class="section-subtitle">Match days · Large screens · Chill vibes</p>
+            </div>
+            
+            <div class="football-content">
+                <div class="football-text animate-in delay-1">
+                    <p>Every game feels bigger on our screens. Al Jazeera is Bungoma's go-to spot for football fans — from Premier League weekends to Champions League nights. Bring your crew, order a feast, and settle in.</p>
+                    <p>What's On: Large HD screens, match-day atmosphere, open late on game nights</p>
+                    
+                    <div class="football-schedule">
+                        <h3>⚽ Upcoming Matches</h3>
+                        <div class="match-item">
+                            <div class="match-teams">Premier League: Arsenal vs Liverpool</div>
+                            <div class="match-time">Sunday, 8:00 PM</div>
+                        </div>
+                        <div class="match-item">
+                            <div class="match-teams">Champions League: Barcelona vs Real Madrid</div>
+                            <div class="match-time">Tuesday, 9:00 PM</div>
+                        </div>
+                        <div class="match-item">
+                            <div class="match-teams">Premier League: Manchester United vs Chelsea</div>
+                            <div class="match-time">Saturday, 6:30 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="football-image animate-in delay-2">
+                    <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Football Lounge at Al Jazeera Cafe" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">What Our Community Says</h2>
+                <p class="section-subtitle">Real reviews from Kenyan & Somali customers</p>
+            </div>
+            
+            <div class="testimonials-grid" id="testimonialsGrid">
+                <!-- Testimonials loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know</p>
+            </div>
+            
+            <div class="faq-container animate-in delay-1" id="faqContainer">
+                <!-- FAQ items loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Visit Us Today</h2>
+                <p class="section-subtitle">Located in Bungoma Town Center - Easy to find, hard to forget</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info animate-in delay-1">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Kanduyi-Bungoma Road, Near County Assembly<br>Bungoma Town Center, Kenya</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Contact</h3>
+                            <p><strong>Phone:</strong> +254 700 488888<br><strong>Email:</strong> iamtherealistmo@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Hours</h3>
+                            <p>24/7 Service<br>Restaurant: 6AM - 11PM Daily<br>Hotel: Check-in flexible</p>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-info">
+                        <h4>💳 Payment Methods</h4>
+                        <div class="payment-details">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>M-PESA Till: <strong>700488888</strong></span>
+                        </div>
+                        <div class="payment-details">
+                            <i class="fas fa-credit-card"></i>
+                            <span>Cash payments accepted</span>
+                        </div>
+                        <div class="payment-details">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp Pay available</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form animate-in delay-2" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label class="form-label" for="name">Your Name</label>
+                        <input type="text" id="name" class="form-input" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-input" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email Address</label>
+                        <input type="email" id="email" class="form-input" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea id="message" class="form-textarea" placeholder="Tell us about your visit or special requirements..." required aria-required="true"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" id="map">
+        <div class="container">
+            <div class="section-header animate-in">
+                <h2 class="section-title">Find Us in Bungoma Town</h2>
+                <p class="section-subtitle">Coordinates: 0.5636° N, 34.5564° E · Near County Assembly</p>
+            </div>
+            <div class="map animate-in delay-1">
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.754698297754!2d34.5564!3d0.5636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMzQnMTAuMiJOIDM0wrAzNCc1OC4wIkU!5e0!3m2!1sen!2ske!4v1700000000000" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        title="Al Jazeera Cafe & Hotel - Bungoma Town Center">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>AL JAZEERA CAFE & HOTEL</h3>
+                    <p>Bungoma's legendary halal restaurant and hotel since 2010. Serving the Kenyan-Somali community with heart and authentic flavors.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/aljazeeracafe.bgm" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/aljazeeracafe.bgm" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://tiktok.com/@aljazeeracafe.bgm" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/254700488888" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#hotel">Hotel</a></li>
+                        <li><a href="#football">Football</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>🍽️ Restaurant - 100% Halal</li>
+                        <li>🛏️ Guest Rooms - Clean & Comfortable</li>
+                        <li>🍴 Catering - Events & Parties</li>
+                        <li>📺 Football Lounge - Large Screens</li>
+                        <li>📶 Free WiFi - High Speed</li>
+                        <li>🅿️ Safe Parking - CCTV Monitored</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><strong>Location:</strong><br>Kanduyi-Bungoma Road<br>Near County Assembly<br>Bungoma Town Center, Kenya</p>
+                    <p><strong>Phone:</strong><br>+254 700 488888</p>
+                    <p><strong>Email:</strong><br>iamtherealistmo@gmail.com</p>
+                    <p><strong>Hours:</strong><br>24/7 Service</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AL JAZEERA CAFE & HOTEL. All Rights Reserved.</p>
+                <p>Built with ❤️ in Bungoma, Kenya · Serving the Kenyan-Somali Community Since 2010</p>
+                <p>Confidential & Proprietary Platform · License: Halal Certified, Tourism Board Rated, Food Safety Compliant</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/254700488888?text=Hello Al Jazeera Cafe, I want to order/book" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Order">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <button class="floating-btn scroll-top-btn" id="scrollTop" aria-label="Scroll to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Menu Data - Updated with Kenyan/Somali Community Menu
+        const menuData = {
+            breakfast: [
+                {
+                    name: "Full Breakfast",
+                    price: "KSh 270",
+                    description: "Complete morning meal with Tea, Eggs, Sausage, Arrowroot/Sweet Potato",
+                    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "African Tea",
+                    price: "KSh 40",
+                    description: "Spiced traditional tea",
+                    image: "https://images.unsplash.com/photo-1594631252845-29fc45865157?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "White Coffee",
+                    price: "KSh 100",
+                    description: "Rich and creamy coffee",
+                    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Andazi",
+                    price: "KSh 30",
+                    description: "Sweet fried dough snack",
+                    image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Chapati",
+                    price: "KSh 30",
+                    description: "Soft layered flatbread",
+                    image: "https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Samosa (Beef)",
+                    price: "KSh 40",
+                    description: "Crispy beef-filled pastry",
+                    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Sambusa",
+                    price: "KSh 40",
+                    description: "Somali style samosa",
+                    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Kebab",
+                    price: "KSh 40",
+                    description: "Grilled meat skewers",
+                    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Omelette",
+                    price: "KSh 120",
+                    description: "2 Eggs (Spanish or Plain)",
+                    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Malawax",
+                    price: "KSh 50",
+                    description: "Sweet Somali Crepe",
+                    image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Anjelo / Canjeero",
+                    price: "KSh 50",
+                    description: "Fermented Somali Pancake",
+                    image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=800&q=80"
+                }
+            ],
+            kenyan: [
+                {
+                    name: "Pilau Beef",
+                    price: "KSh 430",
+                    description: "Legendary spiced rice with tender beef",
+                    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Pilau Chicken",
+                    price: "KSh 450",
+                    description: "Aromatic rice with spiced chicken",
+                    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Biryani (Special)",
+                    price: "KSh 450",
+                    description: "Friday Only special biryani",
+                    image: "https://images.unsplash.com/photo-1565299503407-7a65e2c5e7b7?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Ugali Chicken",
+                    price: "KSh 350",
+                    description: "Wet Fry or Dry Fry with maize meal",
+                    image: "https://images.unsplash.com/photo-1604329766524-fca692a8713c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Ugali Beef",
+                    price: "KSh 300",
+                    description: "Traditional beef stew with maize meal",
+                    image: "https://images.unsplash.com/photo-1604329766524-fca692a8713c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Ugali Fish",
+                    price: "KSh 350",
+                    description: "Whole Tilapia (Wet/Dry) with maize meal",
+                    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700286?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Ugali Matumbo",
+                    price: "KSh 270",
+                    description: "Tripe stew with maize meal",
+                    image: "https://images.unsplash.com/photo-1604329766524-fca692a8713c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Ugali Managu",
+                    price: "KSh 150",
+                    description: "Traditional Greens with maize meal",
+                    image: "https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Nyama Choma",
+                    price: "KSh 500",
+                    description: "Grilled Meat (per portion)",
+                    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Githeri Special",
+                    price: "KSh 150",
+                    description: "Traditional maize and bean mix",
+                    image: "https://images.unsplash.com/photo-1604329766524-fca692a8713c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Mukimo",
+                    price: "KSh 200",
+                    description: "Mashed potato/greens/maize",
+                    image: "https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Matoke Mix",
+                    price: "KSh 150",
+                    description: "Plantain Stew",
+                    image: "https://images.unsplash.com/photo-1609501676725-7186f017aa8c?auto=format&fit=crop&w=800&q=80"
+                }
+            ],
+            somali: [
+                {
+                    name: "Bariis Iskukaris",
+                    price: "KSh 450",
+                    description: "Spiced rice with Goat/Camel meat",
+                    image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Pasta Salbuko",
+                    price: "KSh 350",
+                    description: "Somali pasta with stew",
+                    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Suqaar",
+                    price: "KSh 300",
+                    description: "Diced meat stew",
+                    image: "https://images.unsplash.com/photo-1604329766524-fca692a8713c?auto=format&fit=crop&w=800&q=80"
+                }
+            ],
+            fastfood: [
+                {
+                    name: "Chips Plain",
+                    price: "KSh 150",
+                    description: "Crispy french fries",
+                    image: "https://images.unsplash.com/photo-1573075175660-08fd4b8e6c7b?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Chips Masala",
+                    price: "KSh 170",
+                    description: "Spicy tomato sauce chips",
+                    image: "https://images.unsplash.com/photo-1573075175660-08fd4b8e6c7b?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Chips Sausage",
+                    price: "KSh 200",
+                    description: "Chips with grilled sausage",
+                    image: "https://images.unsplash.com/photo-1573075175660-08fd4b8e6c7b?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Chips Chicken",
+                    price: "KSh 380",
+                    description: "1/4 Chicken + Chips",
+                    image: "https://images.unsplash.com/photo-1604329766524-fca692a8713c?auto=format&fit=crop&w=800&q=80"
+                }
+            ],
+            desserts: [
+                {
+                    name: "Kaimati",
+                    price: "KSh 50",
+                    description: "Sweet dumplings (portion)",
+                    image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Mahamri",
+                    price: "KSh 30",
+                    description: "Swahili donut",
+                    image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Halwa",
+                    price: "KSh 100",
+                    description: "Sweet confection",
+                    image: "https://images.unsplash.com/photo-1555949258-eb6b91f2b7b9?auto=format&fit=crop&w=800&q=80"
+                }
+            ],
+            beverages: [
+                {
+                    name: "Sodas (300ml)",
+                    price: "KSh 50",
+                    description: "Coca Cola, Fanta, Sprite",
+                    image: "https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Sodas (500ml)",
+                    price: "KSh 70",
+                    description: "Coca Cola, Fanta, Sprite",
+                    image: "https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Mineral Water",
+                    price: "KSh 50",
+                    description: "500ml bottled water",
+                    image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+                },
+                {
+                    name: "Fresh Juice",
+                    price: "KSh 150",
+                    description: "Passion/Mango/Cocktail",
+                    image: "https://images.unsplash.com/photo-1622635471477-391d6c8c2d8f?auto=format&fit=crop&w=800&q=80"
+                }
+            ]
+        };
+
+        const hotelRooms = [
+            {
+                id: 1,
+                name: "Standard Room",
+                price: "KSh 2,500",
+                description: "Clean, comfortable room with double bed - perfect for solo travelers",
+                features: ["Double Bed", "Private Bathroom", "Free WiFi", "TV", "Safe Parking", "24/7 Security"],
+                image: "https://images.unsplash.com/photo-1631049307264-0a0ec9d70304?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 2,
+                name: "Deluxe Room",
+                price: "KSh 3,500",
+                description: "Spacious room with king bed and sitting area - ideal for couples",
+                features: ["King Bed", "Private Bathroom", "Free WiFi", "TV", "Sitting Area", "Mini Fridge", "City View"],
+                image: "https://images.unsplash.com/photo-1611892440507-42a792e24d32?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 3,
+                name: "Family Room",
+                price: "KSh 5,000",
+                description: "Large room with multiple beds - perfect for families with children",
+                features: ["Multiple Beds", "Private Bathroom", "Free WiFi", "TV", "Sitting Area", "Family Friendly", "Extra Space"],
+                image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 4,
+                name: "Executive Suite",
+                price: "KSh 7,000",
+                description: "Luxurious suite with separate living area - premium accommodation",
+                features: ["King Bed", "Private Bathroom", "Free WiFi", "TV", "Living Area", "Mini Bar", "Work Desk", "Premium Service"],
+                image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+            }
+        ];
+
+        const testimonials = [
+            {
+                id: 1,
+                text: "Al Jazeera is my go-to place in Bungoma. The pilau is legendary - best I've ever had! The atmosphere during match days is unbeatable. As a Kenyan, I feel at home here.",
+                name: "David Wanjala",
+                role: "Regular Customer since 2015",
+                avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+            },
+            {
+                id: 2,
+                text: "I stayed at Al Jazeera Guest House for a week during my business trip. Clean rooms, friendly staff, and the food is amazing. The Somali specialties remind me of home!",
+                name: "Aisha Mohamed",
+                role: "Business Traveler from Somali Community",
+                avatar: "https://images.unsplash.com/photo-1494790108755-2616b332c1ca?auto=format&fit=crop&w=400&q=80"
+            },
+            {
+                id: 3,
+                text: "The football shows here are the best in Bungoma! Large screens, great food, and amazing atmosphere. Perfect for watching Premier League with my Kenyan and Somali friends.",
+                name: "Michael Kiprop",
+                role: "Football Fan & Local Resident",
+                avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+            },
+            {
+                id: 4,
+                text: "Omar and his team treat every guest like family. The biryani on Fridays is a must-try. This place brings our Kenyan-Somali community together!",
+                name: "Fatuma Hassan",
+                role: "Local Resident & Somali Community Member",
+                avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80"
+            }
+        ];
+
+        const faqs = [
+            {
+                question: "What are your opening hours?",
+                answer: "We are open 24/7 for both dining and accommodation. Restaurant hours are 6AM-11PM daily, but our guest house reception is always available."
+            },
+            {
+                question: "Is all your food halal certified?",
+                answer: "Yes, 100% halal certified. All our meat is sourced from certified halal suppliers and prepared according to Islamic dietary laws, serving both Kenyan and Somali communities."
+            },
+            {
+                question: "Do you offer room service?",
+                answer: "Yes, we offer 24/7 room service for all our hotel guests. You can order from our full menu and have it delivered to your room."
+            },
+            {
+                question: "Can I book a room in advance?",
+                answer: "Absolutely! We recommend booking in advance, especially during peak seasons or major football matches. Call +254 700 488888 or WhatsApp us."
+            },
+            {
+                question: "Do you show all football matches?",
+                answer: "Yes! We have 10 large HD screens and show Premier League, Champions League, La Liga, Serie A, and major African matches. Open late on game nights."
+            },
+            {
+                question: "What payment methods do you accept?",
+                answer: "We accept M-PESA (Till: 700488888), cash, and WhatsApp Pay. All payments are secure and instant."
+            }
+        ];
+
+        // DOM Elements
+        const menuTabs = document.querySelectorAll('.tab-btn');
+        const carouselWrapper = document.getElementById('carouselWrapper');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const indicatorsContainer = document.getElementById('carouselIndicators');
+        const hotelGrid = document.getElementById('hotelGrid');
+        const testimonialsGrid = document.getElementById('testimonialsGrid');
+        const faqContainer = document.getElementById('faqContainer');
+        const contactForm = document.getElementById('contactForm');
+        const scrollTop = document.getElementById('scrollTop');
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        let currentSlide = 0;
+        let currentCategory = 'breakfast';
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            renderCarousel(currentCategory);
+            renderHotelRooms();
+            renderTestimonials();
+            renderFAQ();
+            handleHeaderScroll();
+            setupEventListeners();
+            checkOpeningHours();
+        });
+
+        function setupEventListeners() {
+            // Mobile Menu Toggle
+            mobileToggle.addEventListener('click', toggleMobileMenu);
+
+            // Scroll to top
+            scrollTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // Menu Tabs
+            menuTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    menuTabs.forEach(t => {
+                        t.classList.remove('active');
+                        t.setAttribute('aria-pressed', 'false');
+                    });
+                    tab.classList.add('active');
+                    tab.setAttribute('aria-pressed', 'true');
+                    currentCategory = tab.dataset.category;
+                    renderCarousel(currentCategory);
+                });
+            });
+
+            // Carousel Controls
+            prevBtn.addEventListener('click', () => navigateCarousel(-1));
+            nextBtn.addEventListener('click', () => navigateCarousel(1));
+
+            // Contact Form
+            contactForm.addEventListener('submit', handleContactForm);
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        const offsetTop = targetElement.offsetTop - 100;
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Close mobile menu if open
+                        navMenu.classList.remove('active');
+                        mobileToggle.setAttribute('aria-expanded', 'false');
+                        mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                    }
+                });
+            });
+
+            // Header scroll effect
+            window.addEventListener('scroll', handleHeaderScroll);
+        }
+
+        function toggleMobileMenu() {
+            navMenu.classList.toggle('active');
+            const isExpanded = navMenu.classList.contains('active');
+            mobileToggle.setAttribute('aria-expanded', isExpanded);
+            mobileToggle.innerHTML = isExpanded ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        }
+
+        function handleHeaderScroll() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(10, 10, 10, 0.98)';
+                header.style.backdropFilter = 'blur(15px)';
+            } else {
+                header.style.background = 'rgba(10, 10, 10, 0.95)';
+                header.style.backdropFilter = 'blur(12px)';
+            }
+
+            // Show/hide scroll to top button
+            if (window.scrollY > 500) {
+                scrollTop.style.display = 'flex';
+            } else {
+                scrollTop.style.display = 'none';
+            }
+
+            // Update active nav link
+            const sections = document.querySelectorAll('section[id]');
+            const scrollPosition = window.scrollY + 150;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    document.querySelectorAll('.nav-link').forEach(link => {
+                        link.classList.remove('active');
+                        link.removeAttribute('aria-current');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                            link.setAttribute('aria-current', 'page');
+                        }
+                    });
+                }
+            });
+        }
+
+        function checkOpeningHours() {
+            const now = new Date();
+            const hour = now.getHours();
+            const isOpen = hour >= 6 && hour < 23;
+            
+            if (!isOpen) {
+                const bannerText = document.querySelector('.banner-text');
+                if (bannerText) {
+                    bannerText.innerHTML = '<span>🕒 Currently closed. Opens at 6:00 AM. Hotel remains 24/7.</span>';
+                }
+            }
+        }
+
+        // Render Carousel
+        function renderCarousel(category) {
+            const items = menuData[category];
+            currentSlide = 0;
+            
+            // Clear existing content
+            carouselWrapper.innerHTML = '';
+            indicatorsContainer.innerHTML = '';
+            
+            // Create carousel items
+            items.forEach((item, index) => {
+                const carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item';
+                carouselItem.innerHTML = `
+                    <div class="carousel-content">
+                        <div>
+                            <img src="${item.image}" alt="${item.name}" class="carousel-image" loading="lazy">
+                        </div>
+                        <div class="carousel-details">
+                            <h3 class="carousel-title">${item.name}</h3>
+                            <p class="carousel-price">${item.price}</p>
+                            <p class="carousel-description">${item.description}</p>
+                            <button class="btn btn-primary" onclick="orderItem('${item.name}', '${item.price}')" style="margin-top: 20px;">
+                                <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                            </button>
+                        </div>
+                    </div>
+                `;
+                carouselWrapper.appendChild(carouselItem);
+
+                // Create indicator
+                const indicator = document.createElement('button');
+                indicator.className = 'indicator' + (index === 0 ? ' active' : '');
+                indicator.setAttribute('aria-label', `Go to slide ${index + 1}`);
+                indicator.addEventListener('click', () => goToSlide(index));
+                indicatorsContainer.appendChild(indicator);
+            });
+            
+            updateCarouselPosition();
+            updateCarouselButtons();
+        }
+
+        function navigateCarousel(direction) {
+            const items = menuData[currentCategory];
+            currentSlide = (currentSlide + direction + items.length) % items.length;
+            updateCarouselPosition();
+            updateCarouselButtons();
+            updateIndicators();
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateCarouselPosition();
+            updateCarouselButtons();
+            updateIndicators();
+        }
+
+        function updateCarouselPosition() {
+            carouselWrapper.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function updateCarouselButtons() {
+            const items = menuData[currentCategory];
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === items.length - 1;
+        }
+
+        function updateIndicators() {
+            const indicators = indicatorsContainer.querySelectorAll('.indicator');
+            indicators.forEach((indicator, index) => {
+                if (index === currentSlide) {
+                    indicator.classList.add('active');
+                } else {
+                    indicator.classList.remove('active');
+                }
+            });
+        }
+
+        // Order Item (Secure with proper encoding)
+        function orderItem(itemName, itemPrice) {
+            const message = `Hello Al Jazeera Cafe! I would like to order: ${itemName} (${itemPrice}). Please confirm availability and preparation time.`;
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/254700488888?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
+        }
+
+        // Render Hotel Rooms
+        function renderHotelRooms() {
+            hotelRooms.forEach(room => {
+                const roomCard = document.createElement('div');
+                roomCard.className = 'room-card animate-in';
+                roomCard.innerHTML = `
+                    <img src="${room.image}" alt="${room.name}" class="room-image" loading="lazy">
+                    <div class="room-content">
+                        <div class="room-header">
+                            <h3 class="room-title">${room.name}</h3>
+                            <span class="room-price">${room.price}/night</span>
+                        </div>
+                        <p class="room-description">${room.description}</p>
+                        <div class="room-features">
+                            ${room.features.map(feature => `
+                                <div class="room-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>${feature}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <button class="room-book-btn" onclick="bookRoom('${room.name}')" aria-label="Book ${room.name}">
+                            <i class="fas fa-bed"></i> Book Now
+                        </button>
+                    </div>
+                `;
+                hotelGrid.appendChild(roomCard);
+            });
+        }
+
+        // Book Room (Secure with proper encoding)
+        function bookRoom(roomName) {
+            const message = `Hello Al Jazeera Hotel! I would like to book a ${roomName}. Please confirm availability and check-in details.`;
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/254700488888?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
+        }
+
+        // Render Testimonials
+        function renderTestimonials() {
+            testimonials.forEach(testimonial => {
+                const testimonialCard = document.createElement('div');
+                testimonialCard.className = 'testimonial-card animate-in';
+                testimonialCard.innerHTML = `
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">"${testimonial.text}"</p>
+                    <div class="testimonial-author">
+                        <img src="${testimonial.avatar}" alt="${testimonial.name}" class="author-avatar" loading="lazy">
+                        <div class="author-info">
+                            <h4 class="author-name">${testimonial.name}</h4>
+                            <p class="author-role">${testimonial.role}</p>
+                        </div>
+                    </div>
+                `;
+                testimonialsGrid.appendChild(testimonialCard);
+            });
+        }
+
+        // Render FAQ
+        function renderFAQ() {
+            faqs.forEach((faq, index) => {
+                const faqItem = document.createElement('div');
+                faqItem.className = 'faq-item';
+                faqItem.innerHTML = `
+                    <button class="faq-question" data-index="${index}" aria-expanded="false" aria-controls="faq-answer-${index}">
+                        ${faq.question}
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-${index}" data-index="${index}">
+                        <div class="faq-answer-content">
+                            ${faq.answer}
+                        </div>
+                    </div>
+                `;
+                faqContainer.appendChild(faqItem);
+
+                // Add click handler
+                faqItem.querySelector('.faq-question').addEventListener('click', function() {
+                    const isActive = this.classList.contains('active');
+                    const answer = document.getElementById(`faq-answer-${index}`);
+                    
+                    // Close all other FAQs
+                    document.querySelectorAll('.faq-question').forEach(q => {
+                        q.classList.remove('active');
+                        q.setAttribute('aria-expanded', 'false');
+                    });
+                    document.querySelectorAll('.faq-answer').forEach(a => {
+                        a.classList.remove('active');
+                    });
+                    
+                    // Toggle current FAQ
+                    if (!isActive) {
+                        this.classList.add('active');
+                        this.setAttribute('aria-expanded', 'true');
+                        answer.classList.add('active');
+                    }
+                });
+            });
+        }
+
+        // Contact Form Handler with Loading State
+        function handleContactForm(e) {
+            e.preventDefault();
+            
+            const submitBtn = e.target.querySelector('.form-submit');
+            const originalText = submitBtn.innerHTML;
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            
+            // Simulate async submission
+            setTimeout(() => {
+                const name = document.getElementById('name').value;
+                alert(`Thank you, ${name}! Your message has been received. We'll contact you within 30 minutes.`);
+                
+                // Reset form
+                contactForm.reset();
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalText;
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
